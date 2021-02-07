@@ -2,8 +2,8 @@
 /**
  * Write a description of class Die here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Jack W)
+ * @version (2021-2-7)
  */
 
 public class Die
@@ -17,24 +17,20 @@ public class Die
     public Die()
     {
         // initialise instance variables
-        roll = this.roll;
+        roll = 1;
     }
 
     /**
      * An example of a method - replace this comment with your own
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @return total of dice
      */
-    public int roll()
+    public int rollDice()
     {
         // put your code here
-        roll = (int)Math.random() * 6 + 1;
-        return roll;
-    }
-    
-    public int getResult()
-    {
-        return roll;
+        int roll1 = (int) (Math.random() * 6) + 1;
+        int roll2 = (int) (Math.random() * 6) + 1;
+        int total = roll1 + roll2;
+        return total;
     }
 }
