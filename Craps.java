@@ -72,3 +72,18 @@ public class Craps
 
     }
 }
+
+
+/* 
+
+COMMENTS FROM THE INSTRUCTOR:
+
+This is a pretty good version of the Craps program, Jack. It would
+be even better if you had implemented the (Y/n) default response
+features as indicated in the assignment description. Otherwise, nice
+work!
+
+SCORE: 14/15
+
+*/
+
